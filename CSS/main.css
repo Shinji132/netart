@@ -9,13 +9,31 @@ body { /* General style rules for the body section */
 	background-color:blue;
 	color:Lightblue;
 	text-align: center;
+	font-family: cursive;
 }
 
 h1 { /* Matches elements with h3 tag */
 	color: yellow;
 	text-decoration: underline;
 }
+a {
+	color: Red;
+}
 
+/* visited link */
+  a:visited {
+      color: green;
+    }
+
+/* mouse over link */
+  a:hover {
+      color: hotpink;
+    }
+
+  /* selected link */
+    a:active {
+      color: blue;
+    }
 #div1 { /* Matches element with id=SimpleDiv */
 	background-color: gray;
 
