@@ -6,11 +6,14 @@ body,html {
 
 
 body { /* General style rules for the body section */
-	background-color:blue;
+	background-color:white;
 	color:Lightblue;
 	text-align: center;
 	font-family: cursive;
 }
+
+
+
 
 h1 { /* Matches elements with h3 tag */
 	color: yellow;
@@ -55,14 +58,15 @@ a {
 }
 
 #div3{
-	background-color: #F1FF47;
+	background-color: #014DFE;
 	margin:5%;
 	padding: 6px;
 	float: right;
 }
 
-#div4{background-color:#D307FF;
+#div4{
+	background-color:#D307FF;
 	margin:5%;
 	padding: 6px;
-	clear:both;
+	float: top;
 }
