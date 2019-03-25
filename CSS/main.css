@@ -1,49 +1,45 @@
 /* Ref:  http://www.w3schools.com/css/css_syntax.asp */
 body,html {
-	height:100%;
-	width: 100%;
+width: 100%;
 }
 
 
+
 body { /* General style rules for the body section */
-	background-color:white;
+	background-color: black;
 	color:Lightblue;
 	text-align: center;
 	font-family: cursive;
 }
-body {
-  background-image:url("/images/Pstart.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 
 
 h1 { /* Matches elements with h3 tag */
-	color: yellow;
+	color:  191970;
 	text-decoration: underline;
 }
 a {
-	color: Red;
+	color: #00FFFF;
 }
 
 /* visited link */
   a:visited {
-      color: green;
+      color: #00FFFF;
     }
 
 /* mouse over link */
   a:hover {
-      color: hotpink;
+      color: white;
     }
 
   /* selected link */
     a:active {
-      color: blue;
+      color: #purple;
     }
 #div1 { /* Matches element with id=SimpleDiv */
 	background-color: gray;
 
-	color: hotpink;
+	color: orange;
 
 
 	border-style: solid groove;
@@ -69,17 +65,28 @@ a {
 	width: 20%;
 }
 #div5{
-	background-color: black;
+	background-color: green;
 	margin:5%;
 	padding: 6px;
 	float:right;
 	width: 25%;
 
 }
+#div6{
+	background-color: black;
+	margin-right: 450px;
+	margin-top: 200px;
+	padding: 6px;
+	width: 25%;
+	float:right;
+
+}
 #div4{
 	background-color:#D307FF;
-	margin:5%;
+	margin-left:50px;
 	padding: 6px;
-	clear: both;
+	clear: left;
+	width: 25%;
+
 
 }
