@@ -11,6 +11,11 @@ body { /* General style rules for the body section */
 	text-align: center;
 	font-family: cursive;
 }
+body {
+  background-image:url("/images/Pstart.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 
@@ -45,7 +50,7 @@ a {
 
 	border-style: solid groove;
   border-width: 5px;
-	border-color: green;
+	border-color: #008080;
 	margin:5%;
 	padding: 6px;
 }
@@ -55,6 +60,7 @@ a {
 	margin:5%;
 	padding: 6px;
 	float: left;
+	width: 20%;
 }
 
 #div3{
@@ -62,11 +68,20 @@ a {
 	margin:5%;
 	padding: 6px;
 	float: right;
+	width: 20%;
 }
+#div5{
+	background-color: black;
+	margin:5%;
+	padding: 6px;
+	float:right;
+	width: 25%;
 
+}
 #div4{
 	background-color:#D307FF;
 	margin:5%;
 	padding: 6px;
-	float: top;
+	clear: both;
+
 }
