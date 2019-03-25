@@ -18,8 +18,6 @@ body {
 }
 
 
-
-
 h1 { /* Matches elements with h3 tag */
 	color: yellow;
 	text-decoration: underline;
